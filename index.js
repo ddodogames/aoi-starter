@@ -23,5 +23,5 @@ Object.keys(vars).forEach((t) =>
 client.variables(vars[t], t)
 )
 
-client.loadCommands("./commands");
+client.loadCommands("./commands/", true);
 client.functionManager.createFunction(...require('./handlers/customfuncs.js'))
