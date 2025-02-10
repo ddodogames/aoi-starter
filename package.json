@@ -1,0 +1,16 @@
+{
+  "name": "bot-name",
+  "version": "1.0.0",
+  "description": "A simple beginner template for aoi.js v6",
+  "license": "ISC",
+  "author": "your name here",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aoi.js": "^6.9.0"
+  }
+}
